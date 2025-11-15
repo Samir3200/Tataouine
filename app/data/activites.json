@@ -1,0 +1,53 @@
+{
+    "activites": {
+        "url": "/activites",
+        "itemsactivites": [
+            {
+                "id": 1,
+                "title": "Karting Café Tataouine",
+                "categorie": "Sport",
+                "Adresse": "Route de Djerba, Zone Berourmet, Tataouine",
+                "Lienadresse": "https://maps.app.goo.gl/bmNBDMMEbGL3U8Kg7",
+                "Téléphone": "+216 25 400 448",
+                "lien tiktok": "https://www.tiktok.com/@kartingtataouine",
+                "lien facebook":"https://www.facebook.com/karting.Tataouine.page.officielle/about/",
+                "images": {
+                    "image1": "image/Karting café tataouine logo.jpg",
+                    "alt1": "Karting Café Tataouine",
+                    "image2": "image/karting cafe tataouine1.jpg",
+                    "alt2": "Karting Café Tataouine",
+                    "image3": "image/karting cafe tataouine2.jpg",
+                    "alt3": "Karting Café Tataouine",
+                    "image4": "image/karting cafe tataouine3.jpg",
+                    "alt4": "Karting Café Tataouine",
+                    "image5": "image/karting cafe tataouine4.jpg",
+                    "alt5": "Karting Café Tataouine",
+                    "image6": "image/karting cafe tataouine5.jpg",
+                    "alt6": "Karting Café Tataouine"
+                },
+                "shortdescription": "Le premier circuit de karting en plein air à Tataouine. Une piste de 600 mètres offrant des sensations fortes pour tous les niveaux.",
+                "description": "Le Karting Café est le premier circuit de karting en plein air à Tataouine, situé à l'entrée nord de la ville, sur la route de Djerba, dans la zone de Berourmet. La piste mesure environ 600 mètres, offrant une expérience de pilotage dynamique et des sensations fortes. L'équipement est moderne, avec des karts bien entretenus et des dispositifs de sécurité adaptés à différents niveaux de conducteurs, des débutants aux plus aguerris. C'est un endroit idéal pour les familles, les amateurs de sport mécanique et tous ceux qui cherchent une activité de loisir unique dans le désert tunisien. Le projet a été lancé par Miloud Elhaji et a ouvert ses portes le 20 mars 2020."
+            },
+             {
+                "id": 2,
+                "title": "Aqua Park",
+                "categorie": "Détente",
+                "Adresse": "Rue Kufa, quartier Al Mahranjen, TATAOUINE NORD",
+                "Lienadresse": "https://maps.app.goo.gl/tjQAwEy6e5AwqgEfA",
+                "Téléphone": "",
+                "lien tiktok": "",
+                "lien facebook":"",
+                "images": {
+                    "image1": "image/aqua-park.jpg",
+                    "alt1": "aqua park",
+                     "image2": "image/aqua-park2.jpg",
+                    "alt2": "aqua park",
+                     "image3": "image/aqua-park3.jpg",
+                    "alt3": "aqua park"
+                },
+                "shortdescription": "",
+                "description": ""
+            }
+        ]
+    }
+}

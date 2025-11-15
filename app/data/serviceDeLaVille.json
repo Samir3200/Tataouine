@@ -1,0 +1,49 @@
+{
+    "Services de la ville": {
+        "url": "/",
+        "itemsservices": [
+            {
+                "id": 1,
+                "title": "Marchés hebdomadaires (souks)",
+                "image": "image/souk tataouine.jpg",
+                "alt": "Marché traditionnel de Tataouine",
+                "description": "Découvrez l'effervescence des souks de Tataouine, où les habitants s'approvisionnent en produits frais, artisanat local et bien plus encore. Ces marchés, fixes ou mobiles, sont le cœur battant de la vie locale."
+            },
+            {
+                "id": 2,
+                "title": "Ateliers d'artisanat traditionnel",
+                "image": "image/artisanat tataouine_1.jpg",
+                "alt": "artisanat traditionnel de Tataouine",
+                "description": "Plongez dans l'univers des artisans de Tataouine, gardiens de savoir-faire ancestraux. Forgerons, tisserands et potiers perpétuent des traditions essentielles à la vie quotidienne, particulièrement dans les villages de Chenini et Douiret."
+            },
+            {
+                "id": 3,
+                "title": "Services de santé de proximité",
+                "image": "image/service santé.jpeg",
+                "alt": "services de santé à Tataouine",
+                "description": "L'accès aux soins est vital. Explorez les centres de santé et cliniques locales, piliers des soins de base à Tataouine. Découvrez comment la communauté accède aux services médicaux, entre polycliniques publiques et offres privées."
+            },
+            {
+                "id": 4,
+                "title": "Projets d’approvisionnement en eau",
+                "image": "image/appro eau.jpeg",
+                "alt": "projets d’approvisionnement en eau à Tataouine",
+                "description": "L'eau est une ressource précieuse. Découvrez les initiatives en cours à Tataouine pour améliorer l'accès à l'eau potable, notamment la création de nouveaux forages et les systèmes de récupération des eaux de pluie."
+            },
+            {
+                "id": 5,
+                "title": "Projets de gestion des déchets",
+                "image": "image/déchets.jpeg",
+                "alt": "projets de gestion des déchets à Tataouine",
+                "description": "La propreté de l'environnement est une priorité. Explorez les campagnes de sensibilisation et les projets pilotes de tri sélectif mis en place à Tataouine pour améliorer la gestion des déchets et préserver la beauté naturelle de la région."
+            },
+            {
+                "id": 6,
+                "title": "Services liés aux Ksour traditionnels",
+                "image": "image/ksours.jpeg",
+                "alt": "ksour traditionnels de Tataouine",
+                "description": "Tataouine, le royaume des ksour, offre des services uniques pour explorer et préserver ce patrimoine exceptionnel. Découvrez les initiatives de restauration, les visites guidées et les randonnées culturelles à travers ces greniers collectifs berbères."               
+            }
+        ]
+    }
+}

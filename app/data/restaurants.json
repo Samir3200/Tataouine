@@ -1,0 +1,330 @@
+{
+  "restaurants": {
+    "url": "/restaurants",
+    "itemsrestaurants": [
+      {
+        "id": 1,
+        "title": "Restaurant Dar El Malfouf",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "44 Av. habib bourguiba, Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/8RWpYUM1MyqdiEwZ8",
+        "Téléphone": "+216 21 045 310",
+        "images": {
+          "image1": "image/pizzeria Dar El Malfouf.jpg",
+          "alt1": "Restaurant Dar El Malfouf"
+        },
+        "shortdescription": "Pizzeria proposant des pizzas, malfoufs, sandwichs et grillades à prix abordables. Cuisine savoureuse, populaire et accessible à tous.",
+        "description": "Je suis Dar El Malfouf, un petit restaurant simple et chaleureux au cœur de Tataouine. Je propose des pizzas, malfoufs et plats rapides à prix abordables, dans une ambiance conviviale sans prétention. On vient chez moi pour manger bien, vite et sans se ruiner, que ce soit sur place, à emporter ou en livraison. J’accueille mes clients jusqu'a atrd letard le soir."
+      },
+      {
+        "id": 2,
+        "title": "Restaurant El Margoum",
+        "categorie": "Restaurant",
+        "Adresse": "Tataouine Ville",
+        "Lienadresse": "https://www.google.com/maps?q=32.929153,10.448985",
+        "Téléphone": "+216 97 387 519",
+        "images": {
+          "image1": "image/restaurant El Margoum.jpg",
+          "alt1": "Restaurant El Margoum"
+        },
+        "shortdescription": "Restaurant proposant une cuisine variée dans une ambiance familiale et accueillante.",
+        "description": "Restaurant El Margoum - Saveurs variées : El Margoum est un établissement apprécié des habitants de Tataouine pour sa cuisine savoureuse et son ambiance conviviale. La carte propose à la fois des plats traditionnels tunisiens et des options plus modernes, satisfaisant tous les goûts. Le restaurant est connu pour ses portions généreuses et ses prix abordables, ce qui en fait un lieu idéal pour les repas en famille ou entre amis. L'équipe dévouée assure un service rapide et attentionné."
+      },
+      {
+        "id": 3,
+        "title": "Restaurant Kabran",
+        "categorie": "Restaurant",
+        "Adresse": "Route Ben Guerdene, 3200 Tataouine",
+        "Lienadresse": "https://www.google.com/maps/search/?api=1&query=Restaurant+Kabran+Route+Ben+Guerdene+Tataouine",
+        "Téléphone": "+216 95 059 680",
+        "images": {
+          "image1": "image/restaurant kabran.jpg",
+          "alt1": "Restaurant Kabran"
+        },
+        "shortdescription": "Restaurant réputé pour sa cuisine de qualité et son cadre agréable.",
+        "description": "Restaurant Kabran - Excellence culinaire : Kabran s'est imposé comme l'une des meilleures adresses de Tataouine pour déguster une cuisine soignée. Le restaurant propose un menu diversifié alliant tradition et modernité, avec des plats préparés par des chefs expérimentés. L'ambiance élégante et le service professionnel font de Kabran un lieu parfait pour les occasions spéciales ou les repas d'affaires. La qualité constante des plats et l'attention portée aux détails distinguent cet établissement."
+      },
+      {
+        "id": 4,
+        "title": "Pizzeria Domino",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Avenue Habib Bourguiba, Tataouine",
+        "Lienadresse": "https://www.google.com/maps/search/?api=1&query=Pizzeria+Domino+Avenue+Habib+Bourguiba+Tataouine",
+        "Téléphone": "+216 22 878 553",
+        "images": {
+          "image1": "image/pizzeria Domino.jpg",
+          "alt1": "Pizzeria Domino"
+        },
+        "shortdescription": "Pizzeria moderne proposant une large sélection de pizzas et de plats italiens.",
+        "description": "Pizzeria Domino - Saveurs italiennes à Tataouine : Domino apporte une touche italienne à la ville de Tataouine avec ses pizzas cuites au four à pierre et ses pâtes fraîches. La pizzeria utilise des ingrédients de qualité et propose une carte variée pour satisfaire tous les goûts. L'ambiance est décontractée et familiale, parfaite pour un repas rapide ou une soirée entre amis. Le service de livraison à domicile est également disponible pour profiter de ces délices sans sortir de chez soi."
+      },
+      {
+        "id": 5,
+        "title": "Pizzeria La Rosa",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Cité Mahrajen, en face de la poste",
+        "Lienadresse": "https://www.google.com/maps/search/?api=1&query=Pizzeria+La+Rosa+Cité+Mahrajen+Tataouine",
+        "Téléphone": "+216 52 999 782",
+        "images": {
+          "image1": "image/pizzeria la rosa.jpeg",
+          "alt1": "Pizzeria La Rosa"
+        },
+        "shortdescription": "Pizzeria artisanale offrant des pizzas généreusement garnies dans une ambiance chaleureuse.",
+        "description": "Pizzeria La Rosa - L'art de la pizza : La Rosa se distingue par la qualité de ses pizzas préparées avec soin et passion. La pâte est faite maison quotidiennement et les garnitures sont fraîches et généreuses. La pizzeria propose également des salades, des paninis et des desserts italiens. L'établissement est apprécié pour son rapport qualité-prix excellent et son accueil chaleureux. C'est l'endroit idéal pour partager un moment convivial autour d'une bonne pizza."
+      },
+      {
+        "id": 6,
+        "title": "Pâtisserie Nourane",
+        "categorie": "Pâtisserie",
+        "Adresse": "19 route nationale, Tataouine 3263",
+        "Lienadresse": "https://www.google.com/maps/search/?api=1&query=XFM6+RP8+P19+Cité+Tahrir+Tunisie",
+        "Téléphone": "+216 20 14 88 22",
+        "images": {
+          "image1": "image/Pâtisserie Nourane.jpeg",
+          "alt1": "Pâtisserie Nourane"
+        },
+        "shortdescription": "Pâtisserie réputée pour ses gâteaux traditionnels et modernes préparés avec finesse.",
+        "description": "Pâtisserie Nourane - Douceurs exquises : Nourane est une pâtisserie de référence à Tataouine, connue pour la qualité exceptionnelle de ses créations. La vitrine présente un large choix de pâtisseries traditionnelles tunisiennes (baklawa, makroudh, kaak warka) et de gâteaux modernes pour toutes les occasions. Les pâtissiers talentueux travaillent avec des ingrédients premium pour garantir des saveurs authentiques. La pâtisserie réalise également des gâteaux personnalisés pour les mariages, anniversaires et autres célébrations. L'hygiène impeccable et le service courtois font de Nourane une adresse incontournable pour les amateurs de douceurs."
+      },
+      {
+        "id": 7,
+        "title": "Pâtisserie Bacha",
+        "categorie": "Pâtisserie",
+        "Adresse": "Av. habib bourguiba, Tataouine, Tunisie",
+        "Lienadresse": "https://www.google.com/maps?q=32.928652,10.448451",
+        "Téléphone": "+216 29 369 337",
+        "images": {
+          "image1": "image/patisserie Bacha.jpeg",
+          "alt1": "Pâtisserie Bacha"
+        },
+        "shortdescription": "Pâtisserie artisanale proposant des spécialités locales et des créations originales.",
+        "description": "Pâtisserie AZZA - Tradition et créativité : AZZA combine savoir-faire traditionnel et innovation pour offrir des pâtisseries qui ravissent les papilles. La pâtisserie est particulièrement réputée pour ses gâteaux orientaux préparés selon des recettes familiales transmises de génération en génération. Les vitrines colorées attirent l'œil avec leurs présentations soignées. AZZA propose également un service de salon de thé où l'on peut déguster les pâtisseries accompagnées d'un thé à la menthe ou d'un café. L'établissement est très fréquenté lors des fêtes religieuses et des occasions spéciales."
+      },
+      {
+        "id": 8,
+        "title": "Sandwicherie Club Fast Food",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "44, Avenue Habib Bourguiba, Tataouine",
+        "Lienadresse": "https://www.google.com/maps?q=32.9285,10.4488",
+        "Téléphone": "",
+        "images": {
+          "image1": "image/sandwicherie club fast food.jpeg",
+          "alt1": "Sandwicherie Club Fast Food"
+        },
+        "shortdescription": "Fast food proposant des sandwichs garnis et des plats rapides de qualité.",
+        "description": "Club Fast Food - Restauration rapide de qualité : Cette sandwicherie populaire est l'endroit idéal pour un repas rapide et savoureux. Le menu propose une variété de sandwichs généreusement garnis, des plats grillés, des salades fraîches et des accompagnements variés. Les ingrédients sont frais et les portions satisfaisantes. Le service est rapide et efficace, parfait pour une pause déjeuner. Les prix abordables et la qualité constante font de Club Fast Food un choix privilégié des étudiants et des travailleurs de la région."
+      },
+      {
+        "id": 9,
+        "title": "Pizzeria Andiamo",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Route de Tataouine, en face du Centre Médical Ibn Al Nafiss",
+        "Lienadresse": "https://www.google.com/maps?q=32.9290,10.4485",
+        "Téléphone": "+216 96 863 604",
+        "images": {
+          "image1": "image/pizzeria Andiamo.jpeg",
+          "alt1": "Pizzeria Andiamo"
+        },
+        "shortdescription": "Pizzeria authentique proposant des spécialités italiennes dans une ambiance conviviale.",
+        "description": "Pizzeria Milano - L'authenticité italienne : Milano est reconnue pour ses pizzas préparées selon la tradition italienne. Les recettes authentiques et les ingrédients importés garantissent un goût qui rappelle l'Italie. L'ambiance chaleureuse et le décor soigné créent une atmosphère accueillante pour les familles et les amis. Le personnel attentif et le service rapide font de Milano une valeur sûre pour les amateurs de cuisine italienne à Tataouine."
+      },
+      {
+        "id": 10,
+        "title": "Pizzeria Lela Meriem",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Av. Habib Bourguiba, Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/ekq6t9jjJuZrULaJ6",
+        "Téléphone": "+216 99 515 347",
+        "images": {
+          "image1": "image/pizzeria lela meriem.jpg",
+          "alt1": "Pizzeria Lela Meriem"
+        },
+        "shortdescription": "Pizzeria familiale proposant des pizzas généreuses et des plats traditionnels.",
+        "description": "Pizzeria Lela Meriem - Convivialité familiale : Lela Meriem est une pizzeria familiale où règne une ambiance chaleureuse et accueillante. Les pizzas sont généreusement garnies et préparées avec des produits frais. L'établissement propose également des plats tunisiens traditionnels, offrant ainsi un choix varié pour toute la famille. Les prix abordables et les portions copieuses font de Lela Meriem une adresse appréciée des habitants de Tataouine."
+      },
+     {
+        "id": 11,
+        "title": "Pizzeria Latinos",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine centre",
+        "Lienadresse": "https://www.google.com/maps?q=32.930048,10.450417",
+        "Téléphone": "+21624168841",
+        "images": {
+          "image1": "image/Pizzeria-Latinos-Pizza.jpg",
+          "alt1": "Pizzeria Latinos"
+        },
+        "shortdescription": "Pizzeria animée proposant des pizzas savoureuses dans une ambiance festive.",
+        "description": "Pizzeria Latinos - Ambiance festive : Latinos apporte une touche d'animation à la scène culinaire de Tataouine avec son ambiance festive et sa cuisine savoureuse. Les pizzas sont préparées avec passion et créativité, offrant des saveurs uniques. L'établissement est particulièrement apprécié pour ses soirées animées et son service dynamique. C'est l'endroit idéal pour partager un moment convivial entre amis autour de bonnes pizzas."
+      },
+      {
+        "id": 12,
+        "title": "Pizzeria Alaa Al Rahman",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": " Rue Habib Bourguiba, Tataouine.",
+        "Lienadresse": "https://www.google.com/maps?q=32.934111,10.450806",
+        "Téléphone": "+216 26 077 187",
+        "images": {
+          "image1": "image/pizzeria alaa al rahman.jpg",
+          "alt1": "Pizzeria Alaa Al Rahman"
+        },
+        "shortdescription": "Pizzeria proposant des pizzas de qualité à prix abordables.",
+        "description": "Pizzeria Alaa Al Rahman - Qualité accessible : Alaa Al Rahman se distingue par son excellent rapport qualité-prix. Les pizzas sont préparées avec soin et les ingrédients sont frais. L'établissement offre un service rapide et efficace, idéal pour les repas sur place ou à emporter. La pizzeria est devenue un incontournable pour ceux qui recherchent des pizzas savoureuses sans se ruiner."
+      },
+      {
+        "id": 13,
+        "title": "Pizzeria Al Baraka",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Route direction cité Mahrajen",
+        "Lienadresse": "https://maps.app.goo.gl/s7aDKUKih7e8Cynd6",
+        "Téléphone": "+216 24 247 860",
+        "images": {
+          "image1": "image/pizzeria Al Baraka.jpg",
+          "alt1": "Pizzeria Al Baraka"
+        },
+        "shortdescription": "Pizzeria offrant une sélection variée de pizzas dans un cadre simple et accueillant.",
+        "description": "Pizzeria Al Baraka - Simplicité et saveur : Al Baraka propose des pizzas savoureuses dans un cadre simple et convivial. La carte offre une belle variété de choix pour satisfaire tous les goûts. Le service courtois et l'ambiance décontractée en font un lieu apprécié pour les repas en famille. Les pizzas sont généreusement garnies et cuites à la perfection."
+      },
+      {
+        "id": 14,
+        "title": "Pizzeria Bab Al Hara",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/UTVjV8RdSqfhi1i97",
+        "Téléphone": "+216 25 350 024",
+        "images": {
+          "image1": "image/pizzeria Bab al Hara.jpg",
+          "alt1": "Pizzeria Bab Al Hara"
+        },
+        "shortdescription": "Pizzeria conviviale proposant des pizzas et des plats rapides.",
+        "description": "Pizzeria Bab Al Hara - Convivialité au menu : Bab Al Hara est une pizzeria conviviale où l'on se sent comme à la maison. Les pizzas sont préparées avec des produits de qualité et cuites dans les règles de l'art. L'établissement propose également des sandwichs et des plats rapides pour les petites faims. L'accueil chaleureux et les prix raisonnables font de Bab Al Hara une adresse appréciée des habitués."
+      },
+      {
+        "id": 15,
+        "title": "Pizzeria Dar Dhiafa",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/JN8tjQ5jdGkMwamv7",
+        "Téléphone": "+216 98 193 022",
+        "images": {
+          "image1": "image/Pizzeria Dar Dhiafa.jpg",
+          "alt1": "Pizzeria Dar Dhiafa"
+        },
+        "shortdescription": "Pizzeria alliant tradition et modernité avec une cuisine soignée.",
+        "description": "Pizzeria Dar Dhiafa - L'hospitalité en cuisine : Dar Dhiafa (la maison de l'hospitalité) porte bien son nom avec son accueil chaleureux et son service attentionné. La pizzeria propose des pizzas de qualité préparées avec des ingrédients frais et des recettes maîtrisées. Le cadre agréable et la propreté impeccable ajoutent au confort de l'expérience. Dar Dhiafa est une adresse de confiance pour les amateurs de bonne cuisine italienne."
+      },
+      {
+        "id": 16,
+        "title": "Pizzeria Food Street 93",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/CEzPaVLy5uzxpLBA7",
+        "Téléphone": "+216 26 399 255",
+        "images": {
+          "image1": "image/pizzeria Food Street 93.jpg",
+          "alt1": "Pizzeria Food Street 93"
+        },
+        "shortdescription": "Pizzeria urbaine proposant des pizzas tendance et des options variées.",
+        "description": "Pizzeria Food Street 93 - Street food à l'italienne : Food Street 93 apporte une touche urbaine et moderne à la scène des pizzerias de Tataouine. La carte propose des pizzas aux garnitures tendance et originales, ainsi que des options de street food italiennes. L'ambiance jeune et dynamique attire une clientèle variée. Le service rapide et l'option de plats à emporter en font un choix pratique pour les repas sur le pouce."
+      },
+      {
+        "id": 17,
+        "title": "Pizzeria Il Maestro",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/SLAXdSy4QQVchQjE8",
+        "Téléphone": "+216 26 022 465",
+        "images": {
+          "image1": "image/pizzeria Il Maestro.jpg",
+          "alt1": "Pizzeria Il Maestro"
+        },
+        "shortdescription": "Pizzeria haut de gamme proposant des pizzas d'exception préparées par des chefs expérimentés.",
+        "description": "Pizzeria Il Maestro - L'excellence italienne : Il Maestro se positionne comme une pizzeria haut de gamme où la qualité est primordiale. Les pizzas sont préparées par des pizzaiolos expérimentés qui maîtrisent l'art de la pizza napolitaine authentique. Les ingrédients sont soigneusement sélectionnés et souvent importés d'Italie. Le cadre élégant et le service raffiné font d'Il Maestro une destination privilégiée pour les occasions spéciales."
+      },
+      {
+        "id": 18,
+        "title": "Pizzeria L'Artisto",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/LzxidarYmzisUtRV8",
+        "Téléphone": "+216 27 509 045",
+        "images": {
+          "image1": "image/pizzeria l'Artisto.jpg",
+          "alt1": "Pizzeria L'Artisto"
+        },
+        "shortdescription": "Pizzeria créative proposant des pizzas originales et des créations artistiques.",
+        "description": "Pizzeria L'Artisto - La pizza comme un art : L'Artisto élève la pizza au rang d'œuvre d'art avec ses créations originales et ses présentations soignées. La carte propose des pizzas aux combinaisons de saveurs audacieuses et des garnitures créatives. Le cadre artistique et la décoration unique créent une atmosphère inspirante. L'Artisto séduit les gourmets en quête de nouvelles expériences culinaires."
+      },
+      {
+        "id": 19,
+        "title": "Pizzeria Pizza Roma",
+        "categorie": "Pizzeria, Sandwicherie",
+       "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/it4p3au97WeEE17Z9",
+        "Téléphone": "+216 51 530 521",
+        "images": {
+          "image1": "image/Pizzeria Pizza Roma.jpg",
+          "alt1": "Pizzeria Pizza Roma"
+        },
+        "shortdescription": "Pizzeria authentique proposant des recettes traditionnelles romaines.",
+        "description": "Pizzeria Pizza Roma - Tradition romaine : Pizza Roma apporte les saveurs authentiques de la capitale italienne à Tataouine. Les pizzas sont préparées selon les recettes traditionnelles romaines avec une pâte croustillante caractéristique. L'utilisation d'ingrédients authentiques et de techniques traditionnelles garantit un goût unique. L'ambiance rappelle les trattorias romaines avec une touche chaleureuse et conviviale."
+      },
+      {
+        "id": 20,
+        "title": "Pizzeria Prestige",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Rue Ahmed Tlili Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/uCPJ8YxkFYG7qJb77",
+        "Téléphone": "+216 95 833 353",
+        "images": {
+          "image1": "image/Pizzeria Prestige.jpg",
+          "alt1": "Pizzeria Prestige"
+        },
+        "shortdescription": "Pizzeria élégante proposant des pizzas raffinées dans un cadre prestigieux.",
+        "description": "Pizzeria Prestige - Élégance et raffinement : Prestige incarne l'excellence avec ses pizzas raffinées et son cadre élégant. L'établissement propose une sélection de pizzas gastronomiques préparées avec des ingrédients premium. Le service impeccable et l'ambiance sophistiquée en font une adresse de choix pour les repas d'affaires ou les dîners romantiques. Prestige allie qualité supérieure et expérience culinaire mémorable."
+      },
+      {
+        "id": 21,
+        "title": "Pizzeria Torino",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/YgfAvspDxk4R5cBE9",
+        "Téléphone": "+216 50 443 442",
+        "images": {
+          "image1": "image/Pizzeria Torino.jpg",
+          "alt1": "Pizzeria Torino"
+        },
+        "shortdescription": "Pizzeria proposant des spécialités du Piémont dans une ambiance chaleureuse.",
+        "description": "Pizzeria Torino - Saveurs du Piémont : Torino apporte les traditions culinaires du nord de l'Italie à Tataouine. Les pizzas reflètent le style piémontais avec des garnitures généreuses et des saveurs robustes. L'établissement propose également d'autres spécialités du nord de l'Italie. L'ambiance chaleureuse et le service attentionné créent une expérience conviviale. Torino est apprécié pour sa cuisine copieuse et authentique."
+      },
+      {
+        "id": 22,
+        "title": "Pizzeria Tour Eiffel",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/P98UEGqaGHNtUQUK9",
+        "Téléphone": "+216 24 346 694",
+        "images": {
+          "image1": "image/Pizzeria Tour Eiffel.jpg",
+          "alt1": "Pizzeria Tour Eiffel"
+        },
+        "shortdescription": "Pizzeria fusion proposant des pizzas avec une touche française.",
+        "description": "Pizzeria Tour Eiffel - Fusion italo-française : Tour Eiffel propose une approche unique en combinant la tradition italienne de la pizza avec des influences de la cuisine française. Cette fusion créative donne des pizzas originales aux saveurs raffinées. Le cadre élégant avec des touches françaises crée une ambiance particulière. L'établissement séduit ceux qui recherchent une expérience culinaire différente et sophistiquée."
+      },
+
+ {
+        "id": 23,
+        "title": "Pizzeria Villagio",
+        "categorie": "Pizzeria, Sandwicherie",
+        "Adresse": "Tataouine",
+        "Lienadresse": "https://maps.app.goo.gl/UtiSnAedqSweiZZq5",
+        "Téléphone": "+216 24 701 430",
+        "images": {
+          "image1": "image/Pizzeria Villagio.jpg",
+          "alt1": "Pizzeria Villagio"
+        },
+        "shortdescription": "Pizzeria village proposant des pizzas artisanales dans une ambiance rustique.",
+        "description": "Pizzeria Villagio - Charme rustique : Villagio recrée l'ambiance chaleureuse d'un village italien avec son décor rustique et son atmosphère conviviale. Les pizzas sont préparées de façon artisanale avec des techniques traditionnelles et des ingrédients authentiques. Le four à bois apporte cette touche fumée caractéristique aux pizzas. Villagio est l'endroit idéal pour ceux qui recherchent une expérience authentique et familiale. La terrasse extérieure est particulièrement appréciée durant les belles soirées."
+      }     
+    ]
+  }
+}

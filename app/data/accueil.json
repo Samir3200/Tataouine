@@ -1,0 +1,101 @@
+{
+    "accueil": {
+        "url": "/",
+        "itemsaccueil": [
+            {
+                "id": 1,
+                "title": "Les ksour et la culture des greniers collectifs",
+                "images": {
+                    "image1": "image/photo5_chenini.jpg",
+                    "alt1": "Ksour de Tataouine",
+                    "image2": "image/photo2_chenini.jpg",
+                    "alt2": "Chenini Ksar",
+                    "image3": "image/photo3_chenini.jpg",
+                    "alt3": "Ksour de Tataouine",
+                    "image4": "image/photo4_chenini.jpg",
+                    "alt4": "Chenini Ksar"
+                },
+                "shortdescription": "Les ksour (pluriel de ksar) sont des greniers fortifiés construits par les communautés berbères pour stocker et protéger leurs récoltes et biens. À Tataouine, ces édifices sont caractéristiques du paysage (par exemple, Ksar Ouled Soltane ou Ksar Hadada). Ces ksour étaient aussi des lieux de vie sociale : chaque famille possédait une ghorfa (cellule de stockage) et l'entretien du ksar se faisait collectivement. Aujourd'hui, des fêtes culturelles célèbrent ces ksour pour sensibiliser les jeunes générations à ce patrimoine.",
+                "description": "Les ksour (pluriel de ksar) sont des greniers fortifiés construits par les communautés berbères pour stockeret protéger leurs récolte et biens. À Tataouine, ces édifices sont caractéristiques du paysage (par exemple, Ksar Ouled Soltane ou Ksar Hadada). Ces ksour étaient aussi des lieux de vie sociale : chaque famille possédait une ghorfa (cellule destockage) et l'entretien du ksar se faisait collectivement. Aujourd'hui, des fêtes culturelles célèbrent ces ksour pour sensibiliser les jeunes générations à cepatrimoine. Au-delà de leur fonction économique et défensive, les ksour témoignent d’une organisation communautaire ingénieuse et d’un savoir-faire architectural adapté au climat aride du Sud tunisien. Construits en pierre, argile et bois de palmier, ils offrent une isolation naturelle contre la chaleur etconservent la fraîcheur des denrées. Leur disposition en étages et en galeries témoigne d’une utilisation optimale de l’espace, tandis que leur architecture harmonieuse s’intègre parfaitement au paysage désertique. Aujourd’hui, ces monuments attirent les visiteurs du monde entier, fascinés par la beauté et la symboliquede ces témoins vivants de la culture berbère."
+            },
+            {
+                "id": 2,
+                "title": "Le festival des ksours Sahariens",
+                "images": {
+                    "image1": "image/festival1_ksours.jpg",
+                    "alt1": "Festival des Ksour Sahariens",
+                    "image2": "image/festival2_ksours.jpeg",
+                    "alt2": "Festival des Ksour Sahariens",
+                    "image3": "image/festival3_ksours.jpg",
+                    "alt3": "Festival des Ksour Sahariens",
+                    "image4": "image/festival4_ksours.jpg",
+                    "alt4": "Festival des Ksour Sahariens"
+                },
+                "shortdescription": "Le Festival des Ksour Sahariens est un événement culturel annuel majeur à Tataouine, célébrant les traditions sahariennes à travers la musique, la danse, le théâtre et l'artisanat. Il met en valeur le patrimoine immatériel de la région et favorise le développement touristique tout en renforçant le sentiment d'appartenance au désert.",
+                "description": "  C'est l'un des événements culturels majeurs de Tataouine. Chaque année (souvent en mars), ce festival réunit des troupes de musique de danse, de théâtre et d'arts populaires venant de toute la région et même d'ailleurs. On y voit notamment : des courses de méharis (chameaux), des spectacles de fantasia (chevauchées de cavaliers armés), des expositions artisanales, et des démonstrations de savoir-faire traditionnel. Le festival renforce le sentiment d'appartenance au désert et au patrimoine saharien. Au-delà de la célébration artistique, le Festival des Ksour Sahariens joue également un rôle essentiel dans la valorisation du patrimoine immatériel et dans le développement touristique de la région. Il permet aux habitants de Tataouine de faire connaître leurs traditions, leur hospitalité et leur mode de vie, tout en créant des opportunités économiques pour les artisans et les producteurs locaux. Ce festival constitue ainsi un pont entre passé et présent : il ravive la mémoire collective tout en ouvrant la région sur le monde, dans un esprit de partage et de fierté culturelle."
+            },
+            {
+                "id": 3,
+                "title": "Le mariage traditionnel à Tataouine",
+                "images": {
+                    "image1": "image/IMG-20250519-WA0015.jpg",
+                    "alt1": "Mariage traditionnel",
+                    "image2": "image/IMG-20250519-WA0016.jpg",
+                    "alt2": "Mariage traditionnel",
+                    "image3": "image/IMG-20250519-WA0017.jpg",
+                    "alt3": "Mariage traditionnel",
+                    "image4": "image/IMG-20250519-WA0018.jpg",
+                    "alt4": "Mariage traditionnel"
+                },
+                "shortdescription": " Les mariages dans les villages autour de Tataouine sont très colorés et suivent des rituels anciens : La cérémonie peut durer plusieurs jours. Les habits traditionnels, brodés de motifs berbères, sont portés, notamment des robes éclatantes et des bijoux en argent. Le henné est appliqué à la mariée lors d'une soirée spéciale, symbole de bonheur et de fertilité. Les chants traditionnels (comme le hadhra ou les chants soufis) accompagnent les danses collectives. Au-delà de la fête, le mariage traditionnel à Tataouine représente un véritable héritage culturel transmis de génération en génération.",
+                "description": " Les mariages dans les villages autour de Tataouine sont très colorés et suivent des rituels anciens : La cérémonie peut durer plusieurs jours. Les habits traditionnels, brodés de motifs berbères, sont portés, notamment des robes éclatantes et des bijoux en argent. Le henné est appliqué à la mariée lors d'une soirée spéciale, symbole de bonheur et de fertilité. Les chants traditionnels (comme le hadhra ou les chants soufis) accompagnent les danses collectives. Au-delà de la fête, le mariage traditionnel à Tataouine représente un véritable héritage culturel transmis de génération en génération. Chaque étape des fiançailles à la procession finale est porteuse de symboles liés à la famille, à la solidarité et à la bénédiction communautaire. Les anciens jouent souvent un rôle central dans l’organisation et la transmission des coutumes, tandis que les jeunes y trouvent un moyen de renouer avec leurs racines. Aujourd’hui, bien que certaines pratiques se modernisent, de nombreuses familles tiennent à préserver ces traditions, témoignant de l’attachement profond à l’identité berbère et saharienne de la région."
+            },
+            {
+                "id": 4,
+                "title": "L'artisanat berbère (Tissage et poterie)",
+                "images": {
+                    "image1": "image/artisanat tissage poterie.jpeg",
+                    "alt1": "Artisanat pôterie",
+                    "image2": "image/artisanat_tapis_tunisie2-high.jpg",
+                    "alt2": "Artisanat pôterie",
+                    "image3": "image/artisanat.jpeg",
+                    "alt3": "Artisanat pôterie"                
+                },
+                "shortdescription": "À Tataouine, les artisanes perpétuent l'art du tissage traditionnel avec des motifs géométriques et des couleurs naturelles (ocre, rouge, noir). Les tapis (kilims) sont célèbres et étaient autrefois essentiels pour la vie nomade : tapis de sol, couvertures, sacs… La poterie est également très présente, souvent fabriquée sans tour (méthode traditionnelle) et ornée de symboles ancestraux. Ces savoir-faire se transmettent de génération en génération, souvent de mère en fille, dans un profond respect des traditions locales.",
+                "description": " À Tataouine, les artisanes perpétuent l'art du tissage traditionnel avec des motifs géométriques et descouleurs naturelles (ocre, rouge, noir). Les tapis (kilims) sont célèbres et étaient autrefois essentiels pour la vie nomade : tapis de sol, couvertures, sacs… La poterie est également très présente, souvent fabriquée sans tour (méthode traditionnelle) et ornée de symboles ancestraux. Ces savoir-faire se transmettent de génération en génération, souvent de mère en fille, dans un profond respect des traditions locales. Chaque création raconte une histoire : celle du désert, des tribus berbères et des modes de vie ancestraux. Les artisanes travaillent avec patience et précision, donnant naissance à des pièces uniques où chaque fil et chaque motif porte une signification culturelle. Aujourd’hui, ces arts sont aussi un vecteur de fierté et de préservation du patrimoine, attirant voyageurs et amateurs d’art désireux de découvrir l’âme authentique de Tataouine."
+            },
+            {
+                "id": 5,
+                "title": "Les rituels liés à l’agriculture et aux saisons",
+                "images": {
+                    "image1": "image/olive1_agriculture.png",
+                    "alt": "Rituels agricoles",
+                    "image2": "image/olive2_agriculture.png",
+                    "alt2": "Rituels agricoles",
+                    "image3": "image/olive3_agriculture.png",
+                    "alt3": "Rituels agricoles",
+                    "image4": "image/olive4_agriculture.jpg",
+                    "alt4": "Rituels agricoles"
+                },
+                "shortdescription": " Même dans un environnement aride, l'agriculture a ses rites : On fête les premières pluies (arzay), essentielles pour les cultures. La récolte des olives, bien que modeste, est célébrée par des chants et repas collectifs dans les oliveraies.",
+                "description": " Même dans un environnement aride, l'agriculture a ses rites : On fête les premières pluies (arzay), essentielles pour les cultures. La récolte des olives, bien que modeste, est célébrée par des chants et repas collectifs dans les oliveraies. Il y a aussi des prières spécifiques pour appeler la pluie en période de sécheresse (Salat Al-Istisqaa). Dans ces terres désertiques, la nature rythme la vie et les traditions. Chaque pluie est un cadeau précieux, célébré avec gratitude car elle apporte l’espoir de récoltes futures. Les oliveraies, rares mais chéries, deviennent des lieux de partage où familles et voisins se réunissent pour chanter, travailler ensemble et partager un repas sous les arbres. Lorsque le ciel tarde à offrir son eau, la communauté se rassemble pour des prières collectives, implorant la pluie et renouvelant le lien profond qui unit l’homme à la terre. Ces rites agricoles témoignent d’un attachement sincère à l’environnement et d'une résilience héritée des anciens."
+            },
+            {
+                "id": 6,
+                "title": "La musique et les danses traditionnelles de Tataouine",
+                "images": {
+                    "image1": "image/music1_tradition.png",
+                    "alt1": "Musique traditionnelle",
+                    "image2": "image/music2_tradition.png",
+                    "alt2": "Musique traditionnelle",
+                    "image3": "image/music3_tradition.png",
+                    "alt3": "Musique traditionnelle",
+                    "image4": "image/music4_tradition.jpg",
+                    "alt4": "Musique traditionnelle"
+                },
+                "shortdescription": " La musique et la danse occupent une place essentielle dans la culture de Tataouine. Elles accompagnent les grands événements de la vie, tels que les mariages, les fêtes agricoles ou les célébrations communautaires.",
+                "description": " La musique et la danse occupent une place essentielle dans la culture de Tataouine. Elles accompagnent les grands événements de la vie, tels que les mariages, les fêtes agricoles ou les célébrations communautaires. Les rythmes sont souvent produits par des tambours, des bendirs et des flûtes, tandis que les chants racontent les histoires du désert, de l’amour et du courage. Les danses, exécutées en groupe, expriment la solidarité et la joie du peuple berbère et arabe de la région. Ces traditions artistiques, transmises de génération en génération, restent un symbole fort de l’identité culturelle de Tataouine."
+            }
+        ]
+    }
+}
