@@ -1,0 +1,78 @@
+{
+    "Title": "Radio Tataouine",
+    "image": "image/radio tataouine_1.jpg",
+    "Description": "Radio Tataouine est une station régionale publique tunisienne fondée le 7 novembre 1993. Elle diffuse principalement en arabe et couvre le sud-est du pays, notamment les régions de Tataouine, Médenine et Gabès. La station émet 20 heures par jour depuis ses trois studios situés à Tataouine, dont un est équipé de technologies numériques.",
+    "paraghraphe1": {
+        "title1": "📻 Écouter Radio Tataouine en direct",
+        "image1": "image/radio tataouine bâtiment.jpeg",
+        "description1": "Vous pouvez écouter Radio Tataouine en direct via les liens suivants :",
+        "liste": [
+            {
+                "item1": " Site officiel de Radio Tataouine",
+                "lien1": "https://www.radiotataouine.tn/"
+            },
+            {
+                "item2": " Tunisie Radio",
+                "lien2": "https://www.tunisie-radio.com/radio-tataouine"
+            },
+            {
+                "item3": " Online Radio Box",
+                "lien3": "https://onlineradiobox.com/tn/tataouine/?lang=fr"
+            },
+            {
+                "item5": " Radio.net",
+                "lien5": "https://www.tunisie-radio.com/radio-tataouine"
+            }
+        ]
+    },
+    "paraghraphe2": {
+        "title2": "🎙️ Fréquences FM",
+        "image2" :"image/radio tataouine fréquence.jpeg",
+        "description2": "Radio Tataouine émet sur plusieurs fréquences FM dans le sud-est tunisien, notamment :",
+        "liste2": [
+            {
+                "item1": " 87.6 MHz",
+                "item2": " 88.1 MHz",
+                "item3": " 89.5 MHz",
+                "item4": " 91.2 MHz",
+                "item5": " 95.8 MHz",
+                "item6": " 96.6 MHz",
+                "item7": " 102.6 MHz",
+                "item8": " 103.3 MHz",
+                "item9": " 105.7 MHz",
+                "item10": " 106.3 MHz"
+            }
+        ]
+    },
+    "paraghraphe3": {
+        "title3": "🗓️ Grille des programmes",
+        "image3": "image/radio tataouine image.jpeg",
+        "description3": "La station propose une variété d'émissions couvrant l'actualité locale, la culture, la musique et des débats sociaux.",
+        "liste3": [
+            {
+                "item1": " ورود الصباح : Émission matinale pour bien commencer la journée.",
+                "item2": " موجة حرّة : Discussions sur des sujets d'actualité.",
+                "item3": " تلمت الأحباب : Programme social et culturel.",
+                "item4": " زوايا الخير : Moments d'inspiration et de positivité.",
+                "item5": " إيقاع النّاس : Émission sur le rythme de la vie quotidienne.",
+                "item6": " مدرجات جامعية : Exploration du monde académique.",
+                "item7": " بين البارح واليوم : Voyage à travers le temps et les changements."
+            }
+        ]
+    },
+    "paraghraphe4": {
+        "title4": "🌐 Présence en ligne",
+        "image4": "image/radio tataouine réseau.png",
+        "description4": "Radio Tataouine maintient une présence active sur les réseaux sociaux :",
+        "liste4": [
+            {
+                "item1": " Page Facebook officielle",
+                "lien1": "https://www.facebook.com/radiotataouine.tn"
+            },
+            {
+                "item2": " Chaîne YouTube" ,
+                "lien2": "https://www.youtube.com/@RadioTataouineFM/streams"              
+            }
+        ]
+    }
+}

@@ -56,7 +56,7 @@ export default function Accueil() {
         });
         return newIndexes;
       });
-    }, 5000); // 8 secondes d'affichage + 2 secondes de transition
+    }, 4000); // 4 secondes d'affichage + 2 secondes de transition
 
     return () => clearInterval(interval);
   }, [traditions]);

@@ -1,79 +1,102 @@
+// Indique que ce composant utilise des fonctionnalités côté client (hooks React)
 'use client';
 
+// Importation des données JSON, du composant Image de Next.js et des hooks React
 import saveursData from '../data/saveurs.json';
 import Image from 'next/image';
 import { useState, useRef, useEffect } from 'react';
 
 export default function Saveurs() {
+    // Récupération de la liste des saveurs depuis le fichier JSON
     const saveurs = saveursData.saveurs.itemssaveurs;
+    
+    // État pour stocker la saveur sélectionnée dans le modal (null = modal fermé)
     const [selectedSaveur, setSelectedSaveur] = useState<any | null>(null);
+    
+    // Référence au conteneur du carrousel pour contrôler le scroll
     const scrollContainerRef = useRef<HTMLDivElement>(null);
+    
+    // État pour mettre en pause le défilement automatique (au survol ou clic)
     const [isPaused, setIsPaused] = useState(false);
 
-    // Fonction pour formater la description en paragraphes
+    // Fonction pour formater la description en paragraphes structurés
     const formatDescription = (text: string) => {
-        // Diviser le texte par les marqueurs de sections (mot suivi de " : ")
+        // Divise le texte par les marqueurs de sections (mot en majuscule suivi de " : ")
         const sections = text.split(/(?=[A-ZÀÉÈÊËÏÎÔÙÛÇ][a-zàâäæçéèêëïîôùûüÿœ\s]+\s*:\s*)/);
+        // Filtre pour enlever les sections vides
         return sections.filter(s => s.trim().length > 0);
     };
 
+    // Fonction pour ouvrir le modal avec les détails d'une saveur
     const openModal = (saveur: any) => {
         setSelectedSaveur(saveur);
+        // Empêche le scroll de la page en arrière-plan quand le modal est ouvert
         document.body.style.overflow = 'hidden';
     };
 
+    // Fonction pour fermer le modal
     const closeModal = () => {
         setSelectedSaveur(null);
+        // Réactive le scroll de la page
         document.body.style.overflow = 'unset';
     };
 
-    // Défilement automatique infini
+    // Hook useEffect pour gérer le défilement automatique infini du carrousel
     useEffect(() => {
         const container = scrollContainerRef.current;
+        // Si pas de conteneur ou si en pause, on sort de la fonction
         if (!container || isPaused) return;
 
-        const scrollSpeed = 0.5; // Vitesse de défilement (pixels par frame)
-        let animationFrameId: number;
+        const scrollSpeed = 0.5; // Vitesse de défilement en pixels par frame
+        let animationFrameId: number; // ID pour annuler l'animation si besoin
 
+        // Fonction qui fait défiler le carrousel automatiquement
         const autoScroll = () => {
             if (container && !isPaused) {
+                // Déplace le scroll vers la droite
                 container.scrollLeft += scrollSpeed;
 
-                // Réinitialiser au tiers quand on arrive aux deux tiers (pour un défilement continu)
+                // Calcul pour créer un effet de boucle infinie
+                // Réinitialise au tiers quand on arrive aux deux tiers
                 const maxScroll = container.scrollWidth / 3;
                 if (container.scrollLeft >= maxScroll * 2) {
                     container.scrollLeft = maxScroll;
                 }
             }
+            // Continue l'animation à la prochaine frame
             animationFrameId = requestAnimationFrame(autoScroll);
         };
 
+        // Démarre l'animation
         animationFrameId = requestAnimationFrame(autoScroll);
 
+        // Fonction de nettoyage : arrête l'animation quand le composant est démonté
         return () => {
             if (animationFrameId) {
                 cancelAnimationFrame(animationFrameId);
             }
         };
-    }, [isPaused]);
+    }, [isPaused]); // Se relance quand isPaused change
 
-    // Fonction de scroll pour le carrousel
+    // Fonction pour faire défiler manuellement le carrousel (boutons gauche/droite)
     const scroll = (direction: 'left' | 'right') => {
         if (scrollContainerRef.current) {
-            const scrollAmount = 420; // Largeur d'une carte + espacement
+            const scrollAmount = 420; // Distance de défilement = largeur d'une carte + espacement
+            // Calcule la nouvelle position selon la direction
             const newScrollLeft = scrollContainerRef.current.scrollLeft + (direction === 'right' ? scrollAmount : -scrollAmount);
+            // Anime le défilement vers la nouvelle position
             scrollContainerRef.current.scrollTo({
                 left: newScrollLeft,
-                behavior: 'smooth'
+                behavior: 'smooth' // Animation fluide
             });
 
-            // Mettre en pause temporairement le défilement automatique
+            // Met en pause le défilement automatique pendant 3 secondes
             setIsPaused(true);
-            setTimeout(() => setIsPaused(false), 3000); // Reprendre après 3 secondes
+            setTimeout(() => setIsPaused(false), 3000);
         }
     };
 
-    // Grouper les saveurs par catégorie
+    // Extrait toutes les catégories uniques des saveurs (non utilisé mais utile pour filtrer)
     const categories = [...new Set(saveurs.map(s => s.categorie))];
 
     return (
@@ -95,18 +118,21 @@ export default function Saveurs() {
                 {/* Fondu droit - plus doux et plus large */}
                 <div className="absolute right-0 top-0 bottom-0 w-48 bg-gradient-to-l from-white via-white/60 via-white/30 to-transparent pointer-events-none z-10"></div>
 
-                {/* Bouton Précédent */}
+                {/* Bouton pour défiler vers la gauche (positionné en absolu, centré verticalement) */}
                 <button
                     onClick={() => scroll('left')}
                     className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-yellow-900/70 hover:bg-yellow-900/90 text-white w-12 h-12 rounded-full shadow-lg transition-all flex items-center justify-center backdrop-blur-sm"
                     aria-label="Précédent"
                 >
+                    {/* Icône flèche gauche SVG */}
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                     </svg>
                 </button>
 
-                {/* Conteneur du carrousel */}
+                {/* Conteneur du carrousel : flex horizontal avec scroll automatique */}
+                {/* ref permet de contrôler le scroll depuis JavaScript */}
+                {/* onMouseEnter/Leave = met en pause le défilement automatique au survol */}
                 <div
                     ref={scrollContainerRef}
                     className="flex gap-6 overflow-x-auto pb-4 px-20 scroll-smooth hide-scrollbar"

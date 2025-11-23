@@ -84,14 +84,10 @@
                 "id": 6,
                 "title": "La musique et les danses traditionnelles de Tataouine",
                 "images": {
-                    "image1": "image/music1_tradition.png",
+                    "image1": "image/instruments1.jpg",
                     "alt1": "Musique traditionnelle",
-                    "image2": "image/music2_tradition.png",
-                    "alt2": "Musique traditionnelle",
-                    "image3": "image/music3_tradition.png",
-                    "alt3": "Musique traditionnelle",
-                    "image4": "image/music4_tradition.jpg",
-                    "alt4": "Musique traditionnelle"
+                    "image2": "image/instrument2.jpeg",
+                    "alt2": "Musique traditionnelle"
                 },
                 "shortdescription": " La musique et la danse occupent une place essentielle dans la culture de Tataouine. Elles accompagnent les grands événements de la vie, tels que les mariages, les fêtes agricoles ou les célébrations communautaires.",
                 "description": " La musique et la danse occupent une place essentielle dans la culture de Tataouine. Elles accompagnent les grands événements de la vie, tels que les mariages, les fêtes agricoles ou les célébrations communautaires. Les rythmes sont souvent produits par des tambours, des bendirs et des flûtes, tandis que les chants racontent les histoires du désert, de l’amour et du courage. Les danses, exécutées en groupe, expriment la solidarité et la joie du peuple berbère et arabe de la région. Ces traditions artistiques, transmises de génération en génération, restent un symbole fort de l’identité culturelle de Tataouine."
