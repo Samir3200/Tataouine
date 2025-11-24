@@ -9,7 +9,14 @@ export default function RadioTataouine() {
       </div>
       <h1 className="text-4xl font-bold mb-4 text-center text-blue-900">{radioData.Title}</h1>
       <div className="flex flex-col items-center mb-6">
-        <Image src={`/${radioData.image}`} alt="Radio Tataouine" width={400} height={250} className="rounded-lg shadow w-auto h-auto" style={{width: "auto", height: "auto"}} />
+        <Image 
+          src={`/${radioData.image}`}
+          alt="Radio Tataouine"
+          width={500}
+          height={100}
+          className="rounded-lg shadow object-contain"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
         <p className="mt-4 text-lg text-gray-700 text-center">{radioData.Description}</p>
       </div>
 

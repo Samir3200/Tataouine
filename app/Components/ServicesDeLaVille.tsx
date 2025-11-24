@@ -7,7 +7,7 @@ export default function ServicesDeLaVille() {
   const secondRow = services.slice(3, 6);
 
   return (
-    <section className="container mx-auto px-1 pt-30 pb-12">
+    <section className="container mx-auto px-4 max-w-7xl pt-30 pb-12">
       <h2 className="text-4xl font-bold text-center mt-16 mb-10 text-yellow-900">SERVICES DE LA VILLE</h2>
 
       {/* Introduction */}
